@@ -4,13 +4,14 @@ Quick demo to understand Spring Framework
 
 
 - How it works: Core contains - factory of creating beans, manage bean dependencies.
-    - Main website: https://spring.io/ 
-    Goals of Spring: lightweight version of Java POJOs - Plain-Old-Java-Objects; dependency injection to promote loose coupling, minimize boilerplate java code
+- Main website: https://spring.io/ 
+    
+- Goals of Spring: lightweight version of Java POJOs - Plain-Old-Java-Objects; dependency injection to promote loose coupling, minimize boilerplate java code
 
-AOP (aspect oriented programming - logging, security, transactions, etc.)
-Data Access Layer: JDBC helper class (reduce source code > 50%), ORM (object to relational modling, Hibernate/JPA integration), JMS(Java Message Service, sending async msg to message broker), transactions(makes heavy use of AOP)
-Test layer: unit/itegration/mock
-Web Layer: Servlet, WebSocket, Web
+- AOP (aspect oriented programming - logging, security, transactions, etc.)
+- Data Access Layer: JDBC helper class (reduce source code > 50%), ORM (object to relational modling, Hibernate/JPA integration), JMS(Java Message Service, sending async msg to message broker), transactions(makes heavy use of AOP)
+- Test layer: unit/itegration/mock
+- Web Layer: Servlet, WebSocket, Web
 
 - Quickly create a starter Spring Boot project: https://start.spring.io/
 - Can be run standalone (includes embedded server i.e. Tomcat):
@@ -33,7 +34,7 @@ management.endpoints.web.exposure.include=heatlh,info
 management.info.env.enabled=true
 ```
 
-Full list of Actuator endpoints: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#actuator.endpoints
+- Full list of Actuator endpoints: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#actuator.endpoints
 Then go to http://localhost:8080/actuator/info and [http://localhost:8080/actuator/](http://localhost:8080/actuator/info)health
 
 ![sb_actuator.png](https://github.com/CorrineTan/corrtan_SpringBootDemo/blob/main/sb_actuator.png)

@@ -1,13 +1,10 @@
 # corrtan_SpringBootDemo
 
 Quick demo to understand Spring Framework 
-
-
-- How it works: Core contains - factory of creating beans, manage bean dependencies.
 - Main website: https://spring.io/ 
     
 - Goals of Spring: lightweight version of Java POJOs - Plain-Old-Java-Objects; dependency injection to promote loose coupling, minimize boilerplate java code
-
+- How it works: Core contains - factory of creating beans, manage bean dependencies.
 - AOP (aspect oriented programming - logging, security, transactions, etc.)
 - Data Access Layer: JDBC helper class (reduce source code > 50%), ORM (object to relational modling, Hibernate/JPA integration), JMS(Java Message Service, sending async msg to message broker), transactions(makes heavy use of AOP)
 - Test layer: unit/itegration/mock

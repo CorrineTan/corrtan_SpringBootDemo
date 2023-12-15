@@ -30,7 +30,7 @@ java -jar mycoolapp.jar
 add following to application.properties:
 
 ```bash
-management.endpoints.web.exposure.include=heatlh,info
+management.endpoints.web.exposure.include=health,info
 management.info.env.enabled=true
 ```
 

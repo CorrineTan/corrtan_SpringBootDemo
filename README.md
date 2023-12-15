@@ -19,7 +19,7 @@ Web Layer: Servlet, WebSocket, Web
 java -jar mycoolapp.jar
 ```
 
-![Screen Shot 2023-12-15 at 10.20.58 pm.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/315ea04b-d843-4d64-bc77-d419b7f0c3b9/3fdc352b-bf2e-40d2-ab60-1a94e83f2827/Screen_Shot_2023-12-15_at_10.20.58_pm.png)
+![sb_qa.png](https://github.com/CorrineTan/corrtan_SpringBootDemo/blob/main/sb_qa.png)
 
 - Maven: solve the dependencies issue (Spring, Hibernate, JSON), you dont need to download Jar files and manually put into your project folder. Maven will make these available during compile/run → shopping list, personal shopper.
 - spring boot parents for starter - inherit from parent version of spring boot
@@ -36,6 +36,6 @@ management.info.env.enabled=true
 Full list of Actuator endpoints: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#actuator.endpoints
 Then go to http://localhost:8080/actuator/info and [http://localhost:8080/actuator/](http://localhost:8080/actuator/info)health
 
-![Screen Shot 2023-12-16 at 1.23.08 am.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/315ea04b-d843-4d64-bc77-d419b7f0c3b9/f8a8dacb-836f-4b7d-8391-c36daaacbe9d/Screen_Shot_2023-12-16_at_1.23.08_am.png)
+![sb_actuator.png]([https://prod-files-secure.s3.us-west-2.amazonaws.com/315ea04b-d843-4d64-bc77-d419b7f0c3b9/f8a8dacb-836f-4b7d-8391-c36daaacbe9d/Screen_Shot_2023-12-16_at_1.23.08_am.png](https://github.com/CorrineTan/corrtan_SpringBootDemo/blob/main/sb_actuator.png))
 
 - All spring boot properties (to add to application.properties): https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#appendix.application-properties
